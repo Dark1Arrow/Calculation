@@ -38,12 +38,12 @@ function App() {
         )}
         <div className='sm:w-[50vw] w-[100vw] h-[70vh] bg-white m-auto rounded-[30px] drop-shadow-2xl flex justify-center items-center flex-col gap-8'>
           <div className='flex justify-end w-[80vw] sm:w-[25vw] '>
-            <img src="/milk.svg" className='sm:w-[45px] w-[30px]' alt="" />
+            <img src="./milk.svg" className='sm:w-[45px] w-[30px]' alt="" />
             <input value={no1} onChange={(e) => setno1(e.target.value)} id='no1' type="text" placeholder='Enter number' className=' text-2xl px-6 text-black h-12 w-[70vw] sm:w-[20vw] bg-[#E9E9E9]  rounded-[30px] drop-shadow-md' />
           </div>
           <div className='flex justify-end sm:w-[25vw] w-[80vw]'>
-            <img src="/milk.svg" className='sm:w-[45px] w-[30px]' alt="" />
-            <img src="/milk.svg" className='sm:w-[45px] w-[30px]' alt="" />
+            <img src="./milk.svg" className='sm:w-[45px] w-[30px]' alt="" />
+            <img src="./milk.svg" className='sm:w-[45px] w-[30px]' alt="" />
             <input value={no3} onChange={(e) => setno3(e.target.value)} type="text" placeholder='Enter number' className=' text-2xl px-6 text-black h-12 w-[70vw] sm:w-[20vw] bg-[#E9E9E9]  rounded-[30px] drop-shadow-md' />
           </div>
 
